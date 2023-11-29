@@ -18,9 +18,10 @@ This project implements a simple Customer Management System with basic CRUD oper
 - Gorilla Mux library: `go get -u github.com/gorilla/mux`
 
 ### Installation
-
-1. Clone the repository:
+How to run the project:
 
    ```bash
-   git clone https://github.com/yourusername/customer-management-system.git
-   cd customer-management-system
+   git clone https://github.com/americussmile92/CRM
+   cd CRM
+   go get -u github.com/gorilla/mux
+   go run main.go
